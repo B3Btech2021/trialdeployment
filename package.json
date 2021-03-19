@@ -1,22 +1,21 @@
 {
-  "name": "trialdeployment",
+  "name": "company-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/B3Btech2021/trialdeployment.git"
+    "url": "https://alishagupta1@dev.azure.com/alishagupta1/Company%20website/_git/Company%20website"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/B3Btech2021/trialdeployment/issues"
-  },
-  "homepage": "https://github.com/B3Btech2021/trialdeployment#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "path": "^0.12.7"
   }
 }
